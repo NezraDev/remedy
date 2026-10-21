@@ -1,0 +1,7 @@
+import { ArrowUpRight, MapPin, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { siteData } from '../data.js';
+
+export function Footer() {
+  return <footer className="site-footer"><div className="container footer-grid"><div className="footer-brand"><Link to="/" aria-label={siteData.branding.homeLabel}><img src={siteData.branding.logo} width="1080" height="692" alt={siteData.branding.logoAlt} /></Link><p>{siteData.footer.description}</p></div><div><h2>{siteData.footer.navigationLabel}</h2><div className="footer-links">{siteData.navigation.filter(item => item.id !== 'home').map(item => <Link key={item.id} to={item.href}>{item.label}</Link>)}</div></div><div className="footer-contact"><h2>{siteData.footer.contactLabel}</h2><a href={siteData.business.mapsUrl} target="_blank" rel="noreferrer"><MapPin size={17} aria-hidden="true" /><span>{siteData.business.address}<br />{siteData.business.cityStateZip}</span></a><a href={siteData.business.phoneHref}><Phone size={17} aria-hidden="true" />{siteData.business.phone}</a><Link to={siteData.actions.book.href} className="text-link">{siteData.actions.book.label}<ArrowUpRight size={17} aria-hidden="true" /></Link></div></div><div className="container footer-bottom"><span>© {new Intl.DateTimeFormat('en-US', { year: 'numeric', timeZone: siteData.business.timezone }).format(new Date())} {siteData.footer.copyright}</span><Link to={siteData.footer.legal.href}>{siteData.footer.legal.label}</Link><span>{siteData.footer.bottomNote}</span></div></footer>;
+}

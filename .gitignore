@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.netlify/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+.impeccable/review/
+.impeccable/build/
+.impeccable/verification/
+.impeccable/generated-rasters/
+.impeccable/config.local.json
+__pycache__/

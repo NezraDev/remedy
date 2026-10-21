@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T05:38:26.848329+00:00",
+  "title": "Design System: Remedy",
+  "extensions": {
+    "colorMeta": {
+      "obsidian": {
+        "role": "neutral",
+        "displayName": "Obsidian",
+        "tonalRamp": [
+          "oklch(15% 0.01531 252.689)",
+          "oklch(26% 0.01531 252.689)",
+          "oklch(37% 0.01531 252.689)",
+          "oklch(48% 0.01531 252.689)",
+          "oklch(59% 0.01531 252.689)",
+          "oklch(70% 0.01531 252.689)",
+          "oklch(82% 0.01531 252.689)",
+          "oklch(95% 0.01531 252.689)"
+        ]
+      },
+      "midnight": {
+        "role": "neutral",
+        "displayName": "Midnight",
+        "tonalRamp": [
+          "oklch(15% 0.03179 247.506)",
+          "oklch(26% 0.03179 247.506)",
+          "oklch(37% 0.03179 247.506)",
+          "oklch(48% 0.03179 247.506)",
+          "oklch(59% 0.03179 247.506)",
+          "oklch(70% 0.03179 247.506)",
+          "oklch(82% 0.03179 247.506)",
+          "oklch(95% 0.03179 247.506)"
+        ]
+      },
+      "cyan": {
+        "role": "primary",
+        "displayName": "Action Cyan",
+        "tonalRamp": [
+          "oklch(15% 0.13604 222.012)",
+          "oklch(26% 0.13604 222.012)",
+          "oklch(37% 0.13604 222.012)",
+          "oklch(48% 0.13604 222.012)",
+          "oklch(59% 0.13604 222.012)",
+          "oklch(70% 0.13604 222.012)",
+          "oklch(82% 0.13604 222.012)",
+          "oklch(95% 0.13604 222.012)"
+        ]
+      },
+      "champagne": {
+        "role": "secondary",
+        "displayName": "Champagne Detail",
+        "tonalRamp": [
+          "oklch(15% 0.06900 82.928)",
+          "oklch(26% 0.06900 82.928)",
+          "oklch(37% 0.06900 82.928)",
+          "oklch(48% 0.06900 82.928)",
+          "oklch(59% 0.06900 82.928)",
+          "oklch(70% 0.06900 82.928)",
+          "oklch(82% 0.06900 82.928)",
+          "oklch(95% 0.06900 82.928)"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.00860 84.573)",
+          "oklch(26% 0.00860 84.573)",
+          "oklch(37% 0.00860 84.573)",
+          "oklch(48% 0.00860 84.573)",
+          "oklch(59% 0.00860 84.573)",
+          "oklch(70% 0.00860 84.573)",
+          "oklch(82% 0.00860 84.573)",
+          "oklch(95% 0.00860 84.573)"
+        ]
+      },
+      "silver": {
+        "role": "neutral",
+        "displayName": "Silver",
+        "tonalRamp": [
+          "oklch(15% 0.02060 252.923)",
+          "oklch(26% 0.02060 252.923)",
+          "oklch(37% 0.02060 252.923)",
+          "oklch(48% 0.02060 252.923)",
+          "oklch(59% 0.02060 252.923)",
+          "oklch(70% 0.02060 252.923)",
+          "oklch(82% 0.02060 252.923)",
+          "oklch(95% 0.02060 252.923)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Quiet Divider",
+        "tonalRamp": [
+          "oklch(15% 0.02060 252.923)",
+          "oklch(26% 0.02060 252.923)",
+          "oklch(37% 0.02060 252.923)",
+          "oklch(48% 0.02060 252.923)",
+          "oklch(59% 0.02060 252.923)",
+          "oklch(70% 0.02060 252.923)",
+          "oklch(82% 0.02060 252.923)",
+          "oklch(95% 0.02060 252.923)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page Headline",
+        "purpose": "Shared page headings; the home hero is a surface-specific treatment."
+      },
+      "section": {
+        "displayName": "Section Heading",
+        "purpose": "Regular serif headings with balanced wrapping."
+      },
+      "title": {
+        "displayName": "Service Title",
+        "purpose": "Wrapping service names in the open catalog entries."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Desktop reading base with a 72ch paragraph ceiling."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Larger introductory paragraphs."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Compact bold sans-serif labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Source --ease; soft exponential ease-out for imagery."
+      },
+      {
+        "name": "hero-crossfade",
+        "value": "opacity 1.4s var(--ease)",
+        "purpose": "The authored photographic sequence; automatic advance is 7000ms from src/data.js and pauses on hover or focus."
+      },
+      {
+        "name": "image-hover",
+        "value": "transform .6s var(--ease), filter .5s",
+        "purpose": "Image-link scale 1.045 and saturation from .75 to 1."
+      },
+      {
+        "name": "icon-hover",
+        "value": "color .2s, background .2s",
+        "purpose": "Quiet icon-control feedback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation-duration: .01ms; animation-iteration-count: 1; transition-duration: .01ms; scroll-behavior: auto",
+        "purpose": "Global reduced-motion override; slideshow autoplay is disabled by the component."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "360px"
+      },
+      {
+        "name": "mobile",
+        "value": "640px"
+      },
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "desktop-compact",
+        "value": "1150px"
+      },
+      {
+        "name": "wide-hero",
+        "value": "1600px"
+      }
+    ],
+    "themeModes": {
+      "default": "system",
+      "preferenceKey": "remedy-theme",
+      "source": "src/data.js: siteData.theme",
+      "light": "Ivory and white surfaces, dark text, teal links/focus, cyan actions with fixed dark labels.",
+      "dark": "Original obsidian/midnight palette.",
+      "photoTreatment": "Fixed dark overlay and ivory photo text in both modes."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled action; preview uses the repeated booking label. Public copy remains in src/data.js.",
+      "html": "<button class=\"ds-button ds-primary\" type=\"button\">Book Now<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:52px;padding:14px 26px;border:1px solid transparent;border-radius:2px;font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:.025em;line-height:1.5;text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .15s,background-color .15s,border-color .15s;}.ds-primary{color:var(--color-on-primary);background:var(--color-primary)}.ds-primary:hover{background:color-mix(in srgb,var(--color-primary) 78%,var(--color-text))}.ds-primary:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}.ds-primary:disabled{opacity:.55;cursor:not-allowed}.ds-primary:disabled:hover{background:var(--color-primary)}@media(max-width:640px){.ds-button{min-height:50px;padding:13px 21px;font-size:11px;gap:15px}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined alternative, used for inquiry alongside booking.",
+      "html": "<button class=\"ds-button ds-secondary\" type=\"button\">Inquire Now<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:52px;padding:14px 26px;border:1px solid transparent;border-radius:2px;font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:.025em;line-height:1.5;text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .15s,background-color .15s,border-color .15s;}.ds-secondary{color:var(--color-text);border-color:color-mix(in srgb,var(--color-text) 55%,transparent);background:transparent}.ds-secondary:hover{color:var(--color-on-primary);background:var(--color-text)}.ds-secondary:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}.ds-secondary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:640px){.ds-button{min-height:50px;padding:13px 21px;font-size:11px;gap:15px}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Inquiry Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labeled field with source-derived placeholder, focus, and invalid treatments. Preview content is demonstrative.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Full name<span>Required</span></label><input id=\"ds-name\" autocomplete=\"name\" placeholder=\"Your full name\" required><span class=\"ds-error\">Enter a valid name.</span></div>",
+      "css": ".ds-field{font-family:var(--font-body);color:var(--color-text);max-width:420px}.ds-field label{display:flex;align-items:baseline;justify-content:space-between;gap:10px;font-size:12px;margin-bottom:10px}.ds-field label span{font-size:9px;color:var(--color-text-secondary)}.ds-field input{box-sizing:border-box;width:100%;min-height:51px;background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-control-border);border-radius:2px;padding:13px 15px;font:13px var(--font-body);caret-color:var(--color-primary)}.ds-field input::placeholder{color:var(--color-text-secondary);opacity:1}.ds-field input:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}.ds-field input[aria-invalid=true]{border-color:var(--color-vip)}.ds-error{display:none;color:var(--color-vip);font-size:11px;margin-top:8px}.ds-field input[aria-invalid=true]+.ds-error{display:block}@media(max-width:640px){.ds-field input{font-size:16px}}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Desktop link row with current-page underline; mobile links become divided rows. Logo remains the supplied asset in the implementation.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a href=\"#home\">Home</a><a class=\"ds-active\" aria-current=\"page\" href=\"#services\">Services</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;align-items:center;background:var(--color-background);font-family:var(--font-body);color:var(--color-text)}.ds-nav a{position:relative;display:inline-flex;align-items:center;min-height:44px;color:inherit;text-decoration:none;font-size:11px}.ds-nav a::after{content:\"\";position:absolute;height:1px;background:var(--color-vip);bottom:3px;left:0;right:100%;transition:right .2s}.ds-nav a:hover::after,.ds-nav .ds-active::after{right:0}.ds-nav a:hover{color:var(--color-primary)}.ds-nav a:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}@media(max-width:900px){.ds-nav{flex-direction:column;align-items:stretch;gap:0;padding:15px 24px 25px;border-bottom:1px solid var(--color-vip)}.ds-nav a{min-height:49px;border-bottom:1px solid var(--line);font-size:14px}.ds-nav a::after{display:none}.ds-nav .ds-active{color:var(--color-primary)}}@media(prefers-reduced-motion:reduce){.ds-nav a::after{transition:none}}"
+    },
+    {
+      "name": "Category Filter",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Compact rectangular selection controls with an explicit pressed state.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Preview category filters\"><button type=\"button\" aria-pressed=\"true\">All services</button><button type=\"button\" aria-pressed=\"false\">Facial &amp; Skin</button><button type=\"button\" aria-pressed=\"false\">Body Contouring</button></div>",
+      "css": ".ds-filters{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-family:var(--font-body)}.ds-filters button{padding:10px 14px;min-height:44px;border:1px solid var(--line);color:var(--color-text-secondary);background:transparent;font:11px var(--font-body);border-radius:2px;cursor:pointer}.ds-filters button:hover{border-color:var(--color-vip);color:var(--color-text)}.ds-filters button[aria-pressed=true]{background:var(--color-primary);color:var(--color-on-primary);border-color:var(--color-primary)}.ds-filters button:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}@media(max-width:640px){.ds-filters{flex-wrap:nowrap;overflow-x:auto;padding-block:3px 10px;scrollbar-width:thin}.ds-filters button{flex-shrink:0;font-size:10px;padding:9px 12px}}"
+    },
+    {
+      "name": "Service Entry Content",
+      "kind": "card",
+      "refersTo": "service-card",
+      "description": "The open content fragment beneath service photography. Demonstrative labels avoid duplicating the editable catalog; images and disclosures stay in the source component.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-meta\"><span>Category</span><span>Listed appointment</span></div><h3><a href=\"#inquiry\">Service name</a></h3><p>The service description comes from the supplied catalog.</p><div class=\"ds-card-bottom\"><span class=\"ds-price\">Listed price</span><div><a href=\"#booking\">Book Now</a><a class=\"ds-inquiry\" href=\"#inquiry\">Inquire Now<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></div></div></article>",
+      "css": ".ds-card{display:flex;flex-direction:column;max-width:390px;padding-top:20px;background:transparent;color:var(--color-text);font-family:var(--font-body)}.ds-meta{display:flex;justify-content:space-between;gap:10px;color:var(--color-vip);font-size:11px}.ds-meta span:last-child{color:var(--color-text-secondary)}.ds-card h3{margin:12px 0 0;font:500 27px/1.23 var(--font-display);text-wrap:balance;overflow-wrap:anywhere}.ds-card a{color:inherit;text-decoration:none}.ds-card h3 a:hover{color:var(--color-vip)}.ds-card p{margin:15px 0 0;color:var(--color-text-secondary);font-size:12px;line-height:1.9;max-width:72ch}.ds-card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-top:23px;margin-top:auto}.ds-price{font-size:18px;line-height:1.3;font-variant-numeric:tabular-nums}.ds-card-bottom>div{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:3px 14px}.ds-card-bottom a{display:inline-flex;align-items:center;gap:5px;min-height:44px;font-size:11px}.ds-card-bottom a:hover,.ds-card-bottom .ds-inquiry{color:var(--color-primary)}.ds-card a:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}@media(max-width:640px){.ds-card h3{font-size:28px}.ds-meta{font-size:10px}.ds-card-bottom{padding-top:15px}}"
+    },
+    {
+      "name": "Availability Notice",
+      "kind": "custom",
+      "refersTo": "availability-notice",
+      "description": "Honest unavailable-state feedback with a contact alternative. Preview text is demonstrative.",
+      "html": "<div class=\"ds-notice\" role=\"status\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v4m0 4h.01\"/></svg><div><p>Online inquiries are currently unavailable.</p><a href=\"#contact\">Call Remedy</a></div></div>",
+      "css": ".ds-notice{display:flex;gap:13px;align-items:flex-start;padding:20px;border:1px solid var(--color-vip);background:transparent;color:var(--color-text);font:12px/1.8 var(--font-body);max-width:540px}.ds-notice svg{flex-shrink:0;color:var(--color-vip);margin-top:2px}.ds-notice p{margin:0;color:var(--color-text-secondary)}.ds-notice a{display:inline-block;color:var(--color-primary);padding-top:10px;text-decoration:underline;text-underline-offset:5px}.ds-notice a:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px;}"
+    },
+    {
+      "name": "Slide Indicators",
+      "kind": "custom",
+      "refersTo": "slide-indicator",
+      "description": "Seven keyboard-operable line indicators; mobile distributes them across one row beneath the location. React owns manual selection, hover/focus pausing and reduced-motion behavior.",
+      "html": "<div class=\"ds-indicators\" role=\"group\" aria-label=\"Choose a treatment image\"><button type=\"button\" aria-label=\"A moment for your skin\" aria-pressed=\"true\"><span></span></button><button type=\"button\" aria-label=\"Explore body contouring\" aria-pressed=\"false\"><span></span></button><button type=\"button\" aria-label=\"Care starts with a conversation\" aria-pressed=\"false\"><span></span></button><button type=\"button\" aria-label=\"Discover personal skincare\" aria-pressed=\"false\"><span></span></button><button type=\"button\" aria-label=\"Time for facial care\" aria-pressed=\"false\"><span></span></button><button type=\"button\" aria-label=\"A closer look at body care\" aria-pressed=\"false\"><span></span></button><button type=\"button\" aria-label=\"Your next moment of care\" aria-pressed=\"false\"><span></span></button></div>",
+      "css": ".ds-indicators{display:flex;align-items:center;gap:8px}.ds-indicators button{display:flex;align-items:center;justify-content:center;width:52px;height:44px;padding:0;border:0;background:transparent;cursor:pointer}.ds-indicators span{display:block;width:100%;height:2px;background:var(--color-on-image-secondary)}.ds-indicators button[aria-pressed=\"true\"] span{height:4px;background:var(--color-primary)}.ds-indicators button:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px}@media(max-width:640px){.ds-indicators{width:100%}.ds-indicators button{width:auto;min-width:24px;flex:1}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Dark Treatment Editorial",
+    "overview": "Remedy pairs the intimacy of treatment photography with the measured typography of an editorial. Deep, cool surfaces let warm skin tones and ivory lettering lead. High-contrast serif headings give the site its expressive voice; small, clear sans-serif controls make browsing and the next action feel straightforward.\n\nThe system uses a compact section rhythm with closely grouped service details and controls. It expresses a premium, calm, welcoming business through actual treatment subjects, fine rules, and restrained champagne details. Preserve the supplied original logo on its light panel. Photography is illustrative context, and equipment visualizations retain their visible disclosure.",
+    "keyCharacteristics": [
+      "Dark tonal surfaces with a single bright action color.",
+      "Bodoni Moda headings balanced by Manrope text and controls.",
+      "Open photographic service entries rather than boxed promotional tiles.",
+      "Rectangular actions, fine rules, and sparse champagne emphasis.",
+      "A calm, controllable image crossfade and explicit interface states."
+    ],
+    "rules": [
+      {
+        "name": "The Action Contrast Rule",
+        "body": "Filled cyan actions use Obsidian labels; preserve this pairing across selected and hover states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Source Palette Rule",
+        "body": "Change public colors only through `siteData.theme.colors` in `src/data.js`. Derived mixes may reference those colors; neither documentation previews nor a new component establish another palette source.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Bodoni Moda for expressive headings and Manrope for explanatory text, service facts, and controls.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Convey hierarchy through tonal surfaces, spacing, and thin rules; recurring containers do not acquire decorative shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use the theme variables sourced from `src/data.js` and preserve Cyan actions with Obsidian labels.",
+      "**Do** pair Bodoni Moda headings with Manrope reading text and controls.",
+      "**Do** preserve the supplied logo on a light, uncropped panel.",
+      "**Do** keep image disclosures, clear focus, reduced-motion behavior, and truthful empty or unavailable states visible.",
+      "**Do** retain separate booking and inquiry destinations and clear action labels.",
+      "**Do** use open service entries, compact section spacing, and fine dividers to organize content."
+    ],
+    "donts": [
+      "**Don't** create another editable public palette or content store in components or documentation.",
+      "**Don't** add decorative shadows, glass panels, or rounded card frames to the flat editorial system.",
+      "**Don't** turn Champagne details into a competing filled primary action color.",
+      "**Don't** treat illustrative imagery as Remedy staff, client results, or evidence of actual equipment.",
+      "**Don't** make automatic motion necessary to understand the content or operate the controls."
+    ]
+  }
+}

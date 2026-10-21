@@ -1,0 +1,91 @@
+[
+  {
+    "file": "facial.jpg",
+    "origin": "https://www.pexels.com/photo/woman-getting-a-facial-treatment-7446659/ | Gustavo Fring | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "file": "skin.jpg",
+    "origin": "https://www.pexels.com/photo/woman-getting-a-face-treatment-14996838/ | Midtrack | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1201,
+    "height": 1800
+  },
+  {
+    "file": "body.jpg",
+    "origin": "https://www.pexels.com/photo/body-contouring-session-in-belo-horizonte-33327686/ | Laura Beauty Designer | Brasil | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "laser.jpg",
+    "origin": "https://www.pexels.com/photo/anonymous-woman-with-lasers-on-belly-7772657/ | Dmitriy Ganin | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "file": "consultation.jpg",
+    "origin": "https://www.pexels.com/photo/professional-consultation-at-beauty-clinic-29648640/ | Alexander Mass | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "wellness.jpg",
+    "origin": "https://www.pexels.com/photo/a-woman-in-activewear-stretching-9004778/ | olia danilevich | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "relaxation.jpg",
+    "origin": "https://www.pexels.com/photo/a-woman-having-a-massage-6628602/ | KoolShooters | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "file": "care.jpg",
+    "origin": "https://www.pexels.com/photo/woman-doing-body-massage-6186768/ | Tima Miroshnichenko | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "file": "face-detail.jpg",
+    "origin": "https://www.pexels.com/photo/cosmetologist-making-beauty-procedures-to-woman-in-salon-16120490/ | Eumorfia Panera | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "skin-assessment.jpg",
+    "origin": "https://www.pexels.com/photo/woman-in-white-tank-top-3985318/ | Gustavo Fring | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1800,
+    "height": 1200,
+    "smallWidth": 800
+  },
+  {
+    "file": "learning-space.jpg",
+    "origin": "https://www.pexels.com/photo/presentation-room-with-seats-7750131/ | Max Vakhtbovycn | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1800,
+    "height": 1201,
+    "smallWidth": 800
+  },
+  {
+    "file": "neck-care.jpg",
+    "origin": "https://www.pexels.com/photo/relaxed-woman-receiving-facial-skin-treatment-28783928/ | João Jesus | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1440,
+    "height": 1800,
+    "smallWidth": 640
+  },
+  {
+    "file": "body-session.jpg",
+    "origin": "https://www.pexels.com/photo/close-up-of-body-contouring-procedure-in-spa-33327683/ | Laura Beauty Designer | Brasil | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1200,
+    "height": 1800,
+    "smallWidth": 533
+  },
+  {
+    "file": "return-care.jpg",
+    "origin": "https://www.pexels.com/photo/facial-treatment-at-istanbul-aesthetic-clinic-36930786/ | Kerim Eveyik | Pexels License https://www.pexels.com/license/ | Illustrative stock, not Remedy staff, clients, equipment or results.",
+    "width": 1440,
+    "height": 1800,
+    "smallWidth": 640
+  }
+]
