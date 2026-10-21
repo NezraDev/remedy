@@ -116,7 +116,7 @@ export const siteData = {
     text: 'Skincare, body contouring, and a moment that belongs to you. Discover your Remedy in Harlingen.',
     location: 'Skincare & body contouring · Harlingen, Texas',
     slides: [ { id: 'skin', image: images.skin, label: 'A moment for your skin' }, { id: 'body', image: images.body, label: 'Explore body contouring' }, { id: 'facial', image: images.facial, label: 'Care starts with a conversation' }, { id: 'assessment', image: images.skinAssessment, label: 'Discover personal skincare' }, { id: 'neck-care', image: images.neckCare, label: 'Time for facial care' }, { id: 'body-session', image: images.bodySession, label: 'A closer look at body care' }, { id: 'return-care', image: images.returnCare, label: 'Your next moment of care' } ],
-    intervalMs: 7000, indicatorsLabel: 'Choose a treatment image', regionLabel: 'Remedy treatment slideshow', imageNote: 'Illustrative treatment photography',
+    intervalMs: 3000, indicatorsLabel: 'Choose a treatment image', regionLabel: 'Remedy treatment slideshow', imageNote: 'Illustrative treatment photography',
   },
   serviceCategories: [
     { id: 'all', name: 'All services', description: 'Explore the full catalog.', order: 0, image: images.facial },

@@ -100,14 +100,14 @@ test('slide progress fills continuously, pauses without jumping, and advances it
   await page.waitForTimeout(350);
   expect(await readProgress()).toBeGreaterThan(pausedProgress + .025);
   const nextSlide = page.getByRole('button', { name: 'Explore body contouring', exact: true });
-  await expect(nextSlide).toHaveAttribute('aria-pressed', 'true', { timeout: 8000 });
+  await expect(nextSlide).toHaveAttribute('aria-pressed', 'true', { timeout: 4000 });
   expect(await readProgress()).toBeLessThan(.15);
   await page.waitForTimeout(350);
   expect(await readProgress()).toBeGreaterThan(.025);
   await nextSlide.click();
   await expect(page.locator('.slide-indicators')).not.toHaveClass(/is-auto-advancing/);
   const imageTransition = await page.locator('.hero-image.is-active').evaluate(element => getComputedStyle(element).transition);
-  expect(imageTransition).toContain('0.65s');
+  expect(imageTransition).toContain('0.35s');
 });
 
 test('theme toggle follows the system, preserves input, and remembers an explicit choice', async ({ page }) => {
